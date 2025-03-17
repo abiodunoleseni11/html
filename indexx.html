@@ -7,28 +7,53 @@
 </head>
 <body>
 
-    <!--This is the Nav bar --> 
-   <a href="home">Home</a> 
-   <a href="about">About</a>
-   <a href="work">Work</a>
-   <a href="resume">Resume</a>
-   <a href="contact">Contact</a>
-
+    <!--This is beginning of the Nav bar -->
+    <header>
+      <nav>
+          <ol>
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#work">Work</a>
+              <a href="#resume">Resume</a>
+              <a href="#contact">Contact</a>
+          </ol>
+      </nav>
+  </header>
 
     <!--This is the end of the Nav bar --> 
+
+
+    <!-- main section start here -->
+
+    
+    <!-- contact section -->
+    <main>
    <br><br>
-   <form>
-<label>About:</label> <br>
-<input type="text" about="about us"/><br>
-<br>
-<label>Work:</label> <br>
-<input type="text" work="What we do?"/><br><br>
-<label>Resume:</label><br>
-<input type="text" resume="What we have?"/>
-<br><br>
-<label>Contact:</label><br>
-<input type="text" contact="Contact us?"/>
+  
+   <form action="#" method="post">
+    <label for="about">About:</label> 
+    <br>
+    <input type="text" id="about" name="about" placeholder="About us" required>
+    <br><br>
+
+    <label for="work">Work:</label> 
+    <br>
+    <input type="text" id="work" name="work" placeholder="What we do?" required>
+    <br><br>
+
+    <label for="resume">Resume:</label>
+    <br>
+    <input type="text" id="resume" name="resume" placeholder="What we have?" required>
+    <br><br>
+
+    <label for="contact">Contact:</label>
+    <br>
+    <input type="text" id="contact" name="contact" placeholder="Contact us?" required>
+    <br><br>
+
+    <button type="submit">Submit</button>
 </form>
+<!-- contact section ends here-->
 
 <br>
 <iframe
@@ -46,17 +71,21 @@ width="526px" height="315px" ></video>
 
     <!--This is the beginning of the audio tag --> 
 <br>
-<audio controls src="assets/audio/Davido-Ft-The-Cavemen-and-Angelique-Kidjo-Na-Money-(TrendyBeatz.com).mp3" type="audio/mp3">
+<audio controls>
+ <source src="assets/audio/Davido-Ft-The-Cavemen-and-Angelique-Kidjo-Na-Money-(TrendyBeatz.com).mp3" type="audio/mp3">
 </audio>
 <!--This is the end of the audio tag -->
 
 <!--This is the beginning of the footer -->
 
 <footer>
-    <p>2025 gomyabbey.</p>
-</footer>
+  <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
 <!--This is the end of the audio tag -->
 
+
+</main>
+
+ <!-- main section ends here -->
 </body>
 <!--This is the end of the body -->
 </html>
